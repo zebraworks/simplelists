@@ -20,6 +20,16 @@ a:hover { /* 6 */
 	background: #414042;
 }
 
+#left_col ul li.members.active a { /* 165 */
+	background: white;
+	color: #cc2032;
+}
+
+#left_col ul li.members.active a:hover { /* 170 */
+	background: #414042;
+	color: white;
+}
+
 .content a.button, .content input[type="submit"].button { /* 288 */
 	background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAA4CAYAAAALiwrxAAAACXBIWXMAAC4jAAAuIwF4pT92AAAB40lEQVR4nO3XsU0DQRCG0R9EFZC4Bsv9V2BRAwluAzIkywfYvtvZXes9aZNJZrJP+3Tc7b8CAKxxWhoePt7fqg54rloEAA/sdeHluNt/Vh0g6ADQRmnUBR0A2imLuqADQFslURd0AGivedQFHQBqNI26oANAnWZRF3QAqNUk6oIOAPU2j7qgA0Afm0Zd0AGgn82iLugA0NcmURd0AOhvddQFHQDGsCrqgg4A47g76oIOAGO5K+qCDgDjuTnqgg4AY7op6oIOAOO6OuqCDgBjuyrqgg4A4/s36oIOAHP4M+qCDgDz+DXqgg4Ac1mMuqADwHwuoi7oADCns6g/HXf7r773AAArnBI/dAB4CIIOAPM6Jcnh4/1N0AFgTj8xT/zQAWBGZzFPBB0AZnMR80TQAWAmizFPBB0AZvFrzBNBB4AZ/BnzRNABYHT/xjwRdAAY2VUxTwQdAEZ1dcwTQQeAEd0U80TQAWA0N8c8EXQAGMldMU8EHQBGcXfME0EHgBGsinki6ADQ2+qYJ4IOAD1tEvNE0AGgl81ingg6APSwacwTQQeAapvHPBF0AKjUJOaJoANAlWYxTwQdACo0jXki6ADQWvOYJ4IOAC2VxDwRdABopSzmSfJSsQQAHtxpaVgV8yT5Bmk1jb86rv6qAAAAAElFTkSuQmCC') right center no-repeat;
 	font-weight: 400;
@@ -35,6 +45,10 @@ a:hover { /* 6 */
 
 .content input[type="submit"].blue:hover { /* 311 */
 	background: white url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAA4CAYAAAALiwrxAAAACXBIWXMAAC4jAAAuIwF4pT92AAAB40lEQVR4nO3XsU0DQRCG0R9EFZC4Bsv9V2BRAwluAzIkywfYvtvZXes9aZNJZrJP+3Tc7b8CAKxxWhoePt7fqg54rloEAA/sdeHluNt/Vh0g6ADQRmnUBR0A2imLuqADQFslURd0AGivedQFHQBqNI26oANAnWZRF3QAqNUk6oIOAPU2j7qgA0Afm0Zd0AGgn82iLugA0NcmURd0AOhvddQFHQDGsCrqgg4A47g76oIOAGO5K+qCDgDjuTnqgg4AY7op6oIOAOO6OuqCDgBjuyrqgg4A4/s36oIOAHP4M+qCDgDz+DXqgg4Ac1mMuqADwHwuoi7oADCns6g/HXf7r773AAArnBI/dAB4CIIOAPM6Jcnh4/1N0AFgTj8xT/zQAWBGZzFPBB0AZnMR80TQAWAmizFPBB0AZvFrzBNBB4AZ/BnzRNABYHT/xjwRdAAY2VUxTwQdAEZ1dcwTQQeAEd0U80TQAWA0N8c8EXQAGMldMU8EHQBGcXfME0EHgBGsinki6ADQ2+qYJ4IOAD1tEvNE0AGgl81ingg6APSwacwTQQeAapvHPBF0AKjUJOaJoANAlWYxTwQdACo0jXki6ADQWvOYJ4IOAC2VxDwRdABopSzmSfJSsQQAHtxpaVgV8yT5Bmk1jb86rv6qAAAAAElFTkSuQmCC') right center no-repeat;
+}
+
+.content .button .arrow { /* 316 */
+	display: none;
 }
 
 .content a.button:hover .arrow { /* 325 */
@@ -188,6 +202,7 @@ span.help::before {
 	color: white;
 	font-weight: 100;
 	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 #mobile-menu-container ul.js {
