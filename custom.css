@@ -1,7 +1,7 @@
 /* styles.css ------- */
 
 a:link, a:visited { /* 1 */
-	color: #404142;
+	color: #7d000C;
 }
 
 a:hover { /* 6 */
@@ -28,6 +28,10 @@ a:hover { /* 6 */
 #left_col ul li.members.active a:hover { /* 170 */
 	background: #414042;
 	color: white;
+}
+
+#dialog_close { /* 251 */
+	color: #cc2032;
 }
 
 .content a.button, .content input[type="submit"].button { /* 288 */
@@ -143,6 +147,11 @@ input.input { /* 975 */
 	cursor: pointer;
 }
 
+div.notification input.input {
+	background-color: #cc3032;
+}
+
+div.notification input.input:hover,
 input.input:hover { /* 981 */
 	color: white;
 	border: none;
@@ -158,7 +167,7 @@ span.text { /* 1220 */
 	color: #cc2032;
 }
 
-/* help glyph */
+/* help glyph ------- */
 
 span.help > img {
 	display: none;
